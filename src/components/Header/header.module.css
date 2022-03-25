@@ -1,0 +1,17 @@
+
+.header {
+    width: 100vw;
+    background-color: var(--wine);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.cartAmount {
+    background-color: var(--wine);
+    min-width: initial;
+
+}

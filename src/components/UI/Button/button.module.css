@@ -1,0 +1,12 @@
+
+
+.button {
+    background-color: var(--darkWine);
+    border: none;
+    border-radius: 20px;
+    max-height: 50px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+}

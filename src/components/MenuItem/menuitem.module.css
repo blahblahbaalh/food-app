@@ -1,0 +1,62 @@
+.menu {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu:last-child{
+    border-bottom: none;
+}
+
+.menuLhs {
+    width: 60%;
+}
+
+.menuName, .menuPrice {
+    font-weight: bolder;
+}
+
+.menuPrice {
+    color: var(--wine);
+}
+
+.menuRhs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    gap: 10px;
+
+
+}
+
+.menuRhs input {
+    width: 60px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.menuRhs .button {
+  display: block;
+  width: 80px;
+}
+
+
+/* ================== */
+
+@media (max-width: 529px){
+    .menuRhs {
+        justify-content: flex-start;
+    }
+
+    .menuRhs, .menuLhs{
+        width: 100%;
+    }
+}
