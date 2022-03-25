@@ -10,3 +10,14 @@
     font-weight: bold;
     padding: 5px 20px;
 }
+
+.button.disabled{
+    color: var(--grey);
+
+}
+
+.white {
+    background-color: var(--white);
+    border: 1px solid var(--wine);
+    color: var(--darkBlack);
+}

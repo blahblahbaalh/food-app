@@ -24,6 +24,8 @@
 
 .menuPrice {
     color: var(--wine);
+    display: inline-block;
+    padding-right: 10px;
 }
 
 .menuRhs {
@@ -48,12 +50,23 @@
   width: 80px;
 }
 
+.box {
+    display: inline-block;
+    border: 1px solid var(--wine);
+    background-color: white;
+    padding: 5px;
+    min-width: 30px;
+    border-radius: 5px;
+    text-align:center;
+
+}
+
 
 /* ================== */
 
 @media (max-width: 529px){
     .menuRhs {
-        justify-content: flex-start;
+        justify-content: ;
     }
 
     .menuRhs, .menuLhs{
